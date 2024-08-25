@@ -1,0 +1,28 @@
+{
+  "name": "tracer",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Demonstrate tracing",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prebuild": "rimraf dist/"
+  },
+  "keywords": [
+    "node",
+    "azure",
+    "cloud",
+    "typescript",
+    "browser",
+    "isomorphic"
+  ],
+  "author": "Microsoft Corporation",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "typescript": "~5.5.3",
+    "rimraf": "latest"
+  }
+}
