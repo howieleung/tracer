@@ -14,7 +14,7 @@ function post(request: Request): Response {
 
     const impl = () => getClient().post(request);
 
-    // the mapper is optional
+    // the mappers are optional.
     return trace(arguments, impl, requestMapper, responseMapper);
 }
 
